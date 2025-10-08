@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World по центру</title>
+    <style>
+        /* Стилі для розміщення тексту по центру сторінки */
+        body {
+            /* Забезпечує, що body займає всю висоту вікна */
+            min-height: 100vh;
+            margin: 0; /* Прибираємо стандартні відступи */
+            display: flex; /* Увімкнення Flexbox для центрування */
+            justify-content: center; /* Центрування по горизонталі */
+            align-items: center; /* Центрування по вертикалі */
+            font-family: Arial, sans-serif; /* Вибираємо простий шрифт */
+            background-color: #333; /* Необов'язково: темний фон для кращого контрасту */
+        }
+
+        /* Стилі для самого напису "Hello world" */
+        .centered-text {
+            color: yellow; /* Встановлюємо колір тексту на жовтий */
+            font-size: 48px; /* Робимо текст великим */
+            font-weight: bold; /* Робимо текст жирним */
+            text-align: center; /* Хоча і не критично з flexbox, додамо для повноти */
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-text">
+        HEllo world
+    </div>
+</body>
+</html>
